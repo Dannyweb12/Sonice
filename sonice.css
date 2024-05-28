@@ -1,0 +1,728 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width:100%;
+    height:6350px;
+    background-color: grey;
+    overflow: hidden;
+}
+#parent1{
+    width: 100%;
+    height:50px;
+    background-color: rgb(88, 62, 28);
+    overflow: hidden;
+}
+#parent2{
+    width:100%;
+    height:100px;
+    background-color: white;
+    overflow: hidden;
+}
+#topic{
+    width: 150px;
+    height:50px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#nav{
+    width:600px;
+    height:40px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-left: 650px;
+    margin-top: -45px;
+}
+#nav ul{
+    text-decoration: none;
+}
+#nav ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#parent3{
+    width:100%;
+    height:900px;;
+    background-color: pink;
+    overflow: hidden;
+    background-image: url(./long\ chain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#a{
+    width:500px;
+    height: 150px;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+#a2{
+    width:450px;
+    height:110px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+#a3{
+    width:150px;
+    height: 40px;
+    background-color: rgb(138, 96, 41);
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+#parent4{
+    width: 100%;
+    height:600px;
+    background-color: white;
+    overflow: hidden;
+}
+#b{
+    width:200px;
+    height:60px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-left:150px;
+    margin-top: 120px;
+}
+#b2{
+    width:480px;
+    height: 200px;
+    /* background-color: pink; */
+    overflow: hidden;
+    margin-left:150px;
+}
+#b3{
+    width:500px;
+    height:500px;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+    margin-left: 700px;
+    margin-top: -350px;
+}
+#b3i{
+    width:150px;
+    height: 150px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-left: 200px;
+    margin-top: 150px;
+    background-image: url(./j4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#b3ii{
+    width: 190px;
+    height: 190px;
+    /* background-color:aqua ; */
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: -130px;
+    background-image: url(./j3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#b3iii{
+    width:200px;
+    height:200px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    margin-top: -350px;
+    margin-left: 100px;
+    background-image: url(./j5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#parent5{
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+#c{
+    width:400px;
+    height:50px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+#c2{
+    width:1300px;
+    height:500px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#c3{
+    width: 300px;
+    height: 400px;
+    /* background-color: brown; */
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    background-image: url(./j7.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#c4{
+    width: 300px;
+    height: 400px;
+    /* background-color: darkorange; */
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url(./j8.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#c5{
+    width: 300px;
+    height: 400px;
+    /* background-color: pink; */
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url(./j9.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#c6{
+    width: 300px;
+    height: 400px;
+    /* background-color: purple; */
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url(./j10.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#c3i{
+    width:50px;
+    height: 20px;
+    background-color: hotpink;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+#c3ii{
+    width:50px;
+    height: 20px;
+    background-color: gold;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+#c6i{
+    width:50px;
+    height: 20px;
+    background-color: gold;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+#c7{
+    width:1300px ;
+    height: 60px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: -85px;
+}
+#c7i{
+    width: 150px;
+    height: 50px;
+    /* background-color: coral; */
+    overflow: hidden;
+    float: left;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+#c7ii{
+    width: 150px;
+    height: 50px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    float: left;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+#c7iii{
+    width: 150px;
+    height: 50px;
+    /* background-color: pink; */
+    overflow: hidden;
+    float: left;
+    margin-left: 180px;
+    margin-top: 5px;
+}
+#c7iv{
+    width: 150px;
+    height: 50px;
+    /* background-color: blue; */
+    overflow: hidden;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+#parent6{
+    width: 100%;
+    height: 1300px;
+    background-color:rgb(231, 231, 231);
+    overflow: hidden;
+}
+#d{
+    width: 570px;
+    height: 300px;
+    background-color: rgb(240, 213, 172);
+    overflow: hidden;
+    margin-top: 150px;
+}
+#d2{
+    width: 400px;
+    height: 500px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-top: -370px;
+    margin-left: 40px;
+    background-image: url(./ear.jpg);
+    background-size: cover;
+}
+#d3{
+    width: 700px;
+    height: 200px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    margin-left: 520px;
+    margin-top: -370px;
+}
+#d4{
+    width: 570px;
+    height: 300px;
+    background-color: rgb(240, 213, 172);
+    overflow: hidden;
+    margin-top: 370px;
+    margin-left: 775px;
+}
+#d5{
+    width: 400px;
+    height: 500px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-left: 900px;
+    margin-top: -370px;
+    background-image: url(./wom.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#d6{
+    width: 700px;
+    height: 200px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    margin-left: 120px;
+    margin-top: -370px;
+}
+#parent7{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    overflow: hidden;
+}
+#e{
+    width: 350px;
+    height: 50px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+#e2{
+    width: 250px;
+    height: 1px;
+    background-color: black;
+    overflow: hidden;
+    margin-left: 500px;
+}
+#esub{
+    width: 1300px;
+    height: 500px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#e3{
+    width: 350px;
+    height: 450px;
+    /* background-color: red; */
+    overflow: hidden;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-image: url(./wom2.png);
+    background-size: cover;
+    background-position: center;
+}
+#e4{
+    width: 350px;
+    height: 450px;
+    /* background-color: purple; */
+    overflow: hidden;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-image: url(./wom3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#e5{
+    width: 350px;
+    height: 450px;
+    /* background-color: teal; */
+    overflow: hidden;
+    float: right;
+    margin-top: 30px;
+    margin-right: 70px;
+    background-image: url(./wom4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#esub2{
+    width: 1250px;
+    height: 60px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: -17px;
+}
+#e6{
+    width: 150px;
+    height: 50px;
+    /* background-color: violet; */
+    overflow: hidden;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+#e7{
+    width: 150px;
+    height: 50px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    float: left;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+#e8{
+    width: 150px;
+    height: 50px;
+    /* background-color: orange; */
+    overflow: hidden;
+    float: right;
+    margin-right: 120px;
+    margin-top: 5px;
+}
+#parent8{
+    width: 100%;
+    height: 1200px;
+    background-color: white;
+    overflow: hidden;
+}
+#f{
+    width:350px;
+    height: 60px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    margin-left: 470px;
+    margin-top: 30px;
+}
+#fsub{
+    width: 1330px;
+    height: 370px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    margin-left: 15px;
+}
+#f2{
+    width: 300px;
+    height: 350px;
+    /* background-color: turquoise; */
+    overflow: hidden;
+    float: left;
+    margin-left: 2px;
+    margin-top: 5px;
+    background-image: url(./je.jpg);
+    background-size: cover;
+}
+#f3{
+    width: 300px;
+    height: 350px;
+    /* background-color:saddlebrown; */
+    overflow: hidden;
+    float: left;
+    margin-left: 28px;
+    margin-top: 5px;
+    background-image: url(./je2.jpg);
+    background-size: cover;
+}
+#f4{
+    width: 300px;
+    height: 350px;
+    /* background-color: seagreen; */
+    overflow: hidden;
+    float: left;
+    margin-left: 28px;
+    margin-top: 5px;
+    background-image: url(./je3.jpg);
+    background-size: cover;
+}
+#f5{
+    width: 300px;
+    height: 350px;
+    /* background-color: fuchsia; */
+    overflow: hidden;
+    margin-top: 5px;
+    float: right;
+    margin-right: 45px;
+    background-image: url(./je4.jpg);
+    background-size: cover;
+}
+#fsub2{
+    width:1300px;
+    height: 70px;
+    /* background-color: green; */
+    overflow: hidden;
+    margin-left: 10px;
+}
+#f6{
+    width: 150px;
+    height: 60px;
+    /* background-color: hotpink; */
+    overflow: hidden;
+    float: left;
+    margin-left: 70px;
+}
+#f7{
+    width: 150px;
+    height: 60px;
+    /* background-color:blue; */
+    overflow: hidden;
+    float: left;
+    margin-left: 200px;
+}
+#f8{
+    width: 200px;
+    height: 60px;
+    /* background-color: grey; */
+    overflow: hidden;
+    float: left;
+    margin-left: 150px;
+}
+#f9{
+    width: 150px;
+    height: 60px;
+    /* background-color: darkmagenta; */
+    overflow: hidden;
+    float: right;
+    margin-right: 70px;
+}
+#fsub3{
+    width: 1330px;
+    height: 370px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#f10{
+    width: 300px;
+    height: 350px;
+    /* background-color: turquoise; */
+    overflow: hidden;
+    float: left;
+    margin-left: 2px;
+    margin-top: 5px;
+    background-image: url(./je5.jpg);
+    background-size: cover;
+}
+#f11{
+    width: 300px;
+    height: 350px;
+    /* background-color:saddlebrown; */
+    overflow: hidden;
+    float: left;
+    margin-left: 28px;
+    margin-top: 5px;
+    background-image: url(./je6.jpg);
+    background-size: cover;
+}
+#f12{
+    width: 300px;
+    height: 350px;
+    /* background-color: seagreen; */
+    overflow: hidden;
+    float: left;
+    margin-left: 28px;
+    margin-top: 5px;
+    background-image: url(./je7.jpg);
+    background-size: cover;
+}
+#f13{
+    width: 300px;
+    height: 350px;
+    /* background-color: fuchsia; */
+    overflow: hidden;
+    margin-top: 5px;
+    float: right;
+    margin-right: 45px;
+    background-image: url(./je8.jpg);
+    background-size: cover;
+}
+#fsub4{
+    width:1300px;
+    height: 70px;
+    /* background-color: green; */
+    overflow: hidden;
+    margin-left: 10px;
+}
+#f14{
+    width: 150px;
+    height: 60px;
+    /* background-color: hotpink; */
+    overflow: hidden;
+    float: left;
+    margin-left: 70px;
+}
+#f15{
+    width: 150px;
+    height: 60px;
+    /* background-color:blue; */
+    overflow: hidden;
+    float: left;
+    margin-left: 200px;
+}
+#f16{
+    width: 200px;
+    height: 60px;
+    /* background-color: grey; */
+    overflow: hidden;
+    float: left;
+    margin-left: 150px;
+}
+#f17{
+    width: 150px;
+    height: 60px;
+    /* background-color: darkmagenta; */
+    overflow: hidden;
+    float: right;
+    margin-right: 70px;
+}
+#parent9{
+    width: 100%;
+    height: 500px;
+    background-color:whitesmoke;
+    overflow: hidden;
+}
+#g{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    overflow: hidden;
+    background-image: url(./je9.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: -150px;
+    border: none;
+}
+#g2{
+    width: 350px;
+    height: 120px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-left: 450px;
+    margin-top: -250px;
+}
+#g3{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    overflow: hidden;
+    background-image: url(./je10.jpg);
+    background-size: cover;
+    margin-top: -180px;
+    margin-left: 1150px;
+    border: none;
+}
+#g4{
+    width: 180px;
+    height: 50px;
+    background-color: rgba(133, 63, 63, 0.726);
+    overflow: hidden;
+    margin-left: 750px;
+    margin-top: -130px;
+}
+#parent10{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+}
+#h{
+    width: 300px;
+    height: 200px;
+    /* background-color: blue; */
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#h2{
+    width: 250px;
+    height: 300px;
+    /* background-color: red; */
+    overflow: hidden;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#h3{
+    width: 250px;
+    height: 300px;
+    /* background-color: green; */
+    overflow: hidden;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#h4{
+    width: 300px;
+    height: 300px;
+    /* background-color: pink; */
+    overflow: hidden;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
